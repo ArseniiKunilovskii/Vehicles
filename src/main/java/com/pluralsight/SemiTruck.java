@@ -8,6 +8,10 @@ public class SemiTruck extends Vehicle{
         this.numberOfTrailers = numberOfTrailers;
     }
 
+    public SemiTruck(){
+        super();
+    }
+
     public void loadCargo(){
         System.out.println("Cargo is loading");
     }

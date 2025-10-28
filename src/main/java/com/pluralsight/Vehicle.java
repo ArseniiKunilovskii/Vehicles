@@ -17,6 +17,10 @@ public class Vehicle {
         this.cargoCapacity = cargoCapacity;
     }
 
+    public Vehicle(){
+
+    }
+
     public void startEngine(){
         System.out.println("Engine is starting");
     }
